@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/bt_addFillUp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Add Fill Up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+    <Button
+        android:id="@+id/bt_addService"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Add Service"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_addFillUp" />
+
+    <Button
+        android:id="@+id/bt_addRepair"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Add REAPIR / MECHANICS"
+        app:layout_constraintEnd_toEndOf="@+id/bt_addService"
+        app:layout_constraintStart_toStartOf="@+id/bt_addService"
+        app:layout_constraintTop_toBottomOf="@+id/bt_addService" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="ADD EXPENSES"
+        app:layout_constraintEnd_toEndOf="@+id/bt_addRepair"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bt_addRepair"
+        app:layout_constraintTop_toBottomOf="@+id/bt_addRepair" />
+
+    <Button
+        android:id="@+id/bt_addIncome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="ADD INCOME"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/bt_InsuranceCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Insurance Card"
+        app:layout_constraintEnd_toEndOf="@+id/bt_addIncome"
+        app:layout_constraintStart_toStartOf="@+id/bt_addIncome"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <Button
+        android:id="@+id/bt_Recipts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/bt_InsuranceCard"
+        app:layout_constraintStart_toStartOf="@+id/bt_InsuranceCard"
+        tools:layout_editor_absoluteY="382dp"
+        tools:text="Recipts" />
+
+    <Button
+        android:id="@+id/bt_Parts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="PARTS"
+        app:layout_constraintEnd_toEndOf="@+id/bt_Recipts"
+        app:layout_constraintStart_toStartOf="@+id/bt_Recipts"
+        app:layout_constraintTop_toBottomOf="@+id/bt_Recipts" />
+
+    <Button
+        android:id="@+id/bt_MyMechanic"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="MY MECHANIC"
+        app:layout_constraintEnd_toEndOf="@+id/bt_Parts"
+        app:layout_constraintStart_toStartOf="@+id/bt_Parts"
+        app:layout_constraintTop_toBottomOf="@+id/bt_Parts" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
