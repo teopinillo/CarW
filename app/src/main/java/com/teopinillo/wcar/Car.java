@@ -40,7 +40,7 @@ public class Car extends AppCompatActivity {
         mspin = findViewById(R.id.spinner_year);
         //initialize the spinner with the years
         ArrayList<Integer> years = new ArrayList<>();
-        for (Integer i = AppConst.START_YEAR; i < AppConst.CURRENT_YEAR; i++) {
+        for (Integer i = AppConst.CURRENT_YEAR; i >= AppConst.START_YEAR; i--) {
             years.add(i);
         }
 

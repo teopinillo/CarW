@@ -4,4 +4,9 @@
     <string name="title_activity_car">Add New Car</string>
     <string name="year">TextView</string>
     <string name="add_fill_up">Add Fill Up</string>
+    <string name="title_activity_my_cars">My Cars</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="add_service">Add Service</string>
 </resources>
